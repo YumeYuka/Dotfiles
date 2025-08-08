@@ -1,0 +1,54 @@
+# =============================================================================
+# Dotfiles .gitignore
+# 自动生成于 2025年 08月 08日 星期五 23:29:11 CST
+# =============================================================================
+
+# 敏感文件
+*password*
+*secret*
+*key*
+*token*
+*.pem
+*.p12
+*.pfx
+*credentials*
+*auth*
+cookies.sqlite
+login.json
+session*
+
+# 缓存和临时文件
+*/cache/*
+*/Cache/*
+*/logs/*
+*/tmp/*
+*/temp/*
+*.log
+*.lock
+*~
+.DS_Store
+Thumbs.db
+
+# 编译文件
+*.o
+*.so
+*.dylib
+*.class
+*.pyc
+__pycache__/
+
+# IDE 文件
+.vscode/settings.json
+.idea/
+
+# 特定应用缓存
+firefox/*/storage/
+chromium/*/Local Storage/
+Code/logs/
+Code/CachedData/
+
+# 系统特定
+.DS_Store
+Thumbs.db
+desktop.ini
+
